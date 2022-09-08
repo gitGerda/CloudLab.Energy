@@ -1,0 +1,33 @@
+.mainDiv2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 4000;
+    
+}
+
+.close2 {
+    display: none;
+}
+
+.modalWindow2 {
+    background-color: #FBCEB1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40%;
+    height: 190px;
+    min-height: 190px;
+    border-radius: 20px;
+}

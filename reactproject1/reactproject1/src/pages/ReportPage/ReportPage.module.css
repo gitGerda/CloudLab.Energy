@@ -1,0 +1,43 @@
+.mainBox{
+    background-color: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    min-height: 93.9vh;
+    background-image: url(../../../public/images/back7.jpg);
+    background-position: center;
+}
+
+.newReportAndHistoryBlock{
+    display: flex;
+    flex-direction: row;
+}
+.newReportBlock{
+    background-color: white;
+    flex: 2;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    min-width: 500px;
+    min-height: 500px;
+    max-height: 500px;
+    padding:10px;
+}
+.historyBlock{
+    background-color: white;
+    flex:1;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    min-width: 20vw;
+    min-height: 500px;
+    max-height: 500px;
+    padding: 10px;
+}
+
+.dataVisualizeBlock{
+    background-color: white;
+    margin:10px;
+    min-height: 45vh;
+    border-radius: 10px;;
+}

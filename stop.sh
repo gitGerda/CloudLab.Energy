@@ -1,0 +1,17 @@
+current_dir=$(pwd);
+echo "RM [database][phpMyAdmin]";
+cd ./dockerLocalDeploy/mysql_phpMyAdmin;
+docker-compose kill;
+docker-compose rm;
+cd $current_dir;
+echo "RM [rabbitMQ]";
+cd ./dockerLocalDeploy/rabbitmq;
+docker-compose kill;
+docker-compose rm;
+cd $current_dir;
+echo "RM and RMI [hangfireShedule]";
+cd ./dockerLocalDeploy/hangfire;
+docker-compose kill;
+docker-compose rm;
+docker rmi hangfiresheduleapi;
+cd $current_dir;

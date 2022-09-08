@@ -1,0 +1,38 @@
+version: '3.4'
+
+volumes:
+  docker_kzmpCloudDatabaseVolume:
+    external: true
+
+services:
+  database:
+    image: mysql:latest
+    command: --lower_case_table_names=0
+    container_name: kzmpCloudDatabase
+    ports:
+      - "3307:3306"
+    volumes:
+      - docker_kzmpCloudDatabaseVolume:/var/lib/mysql
+      - ~/Docker/kzmpCloud/sql-scripts/setup.sql:/docker-entrypoint-initdb.d/1.sql
+    #restart: always
+    environment: 
+      MYSQL_ROOT_PASSWORD: Otohof96
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: Otohof96
+      MYSQL_DATABASE: kzmp_energy 
+      TZ: Europe/Moscow
+
+  phpMyAdmin:
+    image: phpmyadmin:latest
+    container_name: kzmpCloudPHPMyAdmin
+    ports:
+      - "8081:80"   
+    links: 
+      - database
+    environment:
+      PMA_HOST: database
+      PMA_PORT: 3306
+      TZ: Europe/Moscow
+    #restart: always  
+    
+

@@ -1,0 +1,102 @@
+2022-08-08 11:33:42.4490 Info Message Template Auto Format enabled
+2022-08-08 11:33:42.4720 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-08 11:33:42.6887 Info Adding target FileTarget(Name=allfile)
+2022-08-08 11:33:42.6887 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-08 11:33:42.7857 Info Validating config: TargetNames=allfile, lifetimeConsole, ConfigItems=29, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Debug\net6.0\NLog.config
+2022-08-08 11:33:43.9669 Info Validating config: TargetNames=allfile, lifetimeConsole, ConfigItems=29, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Debug\net6.0\NLog.config
+2022-08-08 11:33:44.0191 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: ConsoleTarget(Name=lifetimeConsole). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2022-08-10 14:25:31.0161 Info Message Template Auto Format enabled
+2022-08-10 14:25:31.0272 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-10 14:25:31.0797 Info Adding target FileTarget(Name=allfile)
+2022-08-10 14:25:31.0797 Info Adding target FileTarget(Name=warning_crit)
+2022-08-10 14:25:31.0797 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-10 14:25:31.1106 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-10 14:25:31.3745 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-10 14:25:31.3839 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: ConsoleTarget(Name=lifetimeConsole). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2022-08-10 14:25:41.5088 Info AppDomain Shutting down. LogFactory closing...
+2022-08-10 14:25:41.5088 Info LogFactory has been closed.
+2022-08-11 16:07:52.9083 Info Message Template Auto Format enabled
+2022-08-11 16:07:52.9083 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-11 16:07:52.9604 Info Adding target FileTarget(Name=allfile)
+2022-08-11 16:07:52.9604 Info Adding target FileTarget(Name=warning_crit)
+2022-08-11 16:07:52.9604 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-11 16:07:52.9833 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-11 16:07:53.1130 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-11 16:07:53.1130 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: ConsoleTarget(Name=lifetimeConsole). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2022-08-11 16:07:59.3753 Info AppDomain Shutting down. LogFactory closing...
+2022-08-11 16:07:59.3844 Info LogFactory has been closed.
+2022-08-11 16:08:05.4150 Info Message Template Auto Format enabled
+2022-08-11 16:08:05.4238 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-11 16:08:05.4598 Info Adding target FileTarget(Name=allfile)
+2022-08-11 16:08:05.4598 Info Adding target FileTarget(Name=warning_crit)
+2022-08-11 16:08:05.4598 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-11 16:08:05.4840 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-11 16:08:05.5878 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-11 16:08:05.5964 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: ConsoleTarget(Name=lifetimeConsole). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2022-08-11 16:10:21.0052 Info AppDomain Shutting down. LogFactory closing...
+2022-08-11 16:10:21.0167 Info LogFactory has been closed.
+2022-08-26 13:42:42.9476 Info Message Template Auto Format enabled
+2022-08-26 13:42:42.9624 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-26 13:42:43.0211 Info Adding target FileTarget(Name=allfile)
+2022-08-26 13:42:43.0211 Info Adding target FileTarget(Name=warning_crit)
+2022-08-26 13:42:43.0211 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-26 13:42:43.0707 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 13:42:43.3897 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 13:42:43.4047 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: ConsoleTarget(Name=lifetimeConsole). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2022-08-26 13:48:57.1051 Info Shutdown() called. Logger closing...
+2022-08-26 13:48:57.1051 Info Closing old configuration.
+2022-08-26 13:48:57.1051 Info Logger has been closed down.
+2022-08-26 13:48:57.1051 Info AppDomain Shutting down. LogFactory closing...
+2022-08-26 13:48:57.1051 Info LogFactory has been closed.
+2022-08-26 13:50:18.1122 Info Message Template Auto Format enabled
+2022-08-26 13:50:18.1235 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-26 13:50:18.1768 Info Adding target FileTarget(Name=allfile)
+2022-08-26 13:50:18.1768 Info Adding target FileTarget(Name=warning_crit)
+2022-08-26 13:50:18.1768 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-26 13:50:18.2026 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 13:50:18.4737 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 13:50:18.4842 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: ConsoleTarget(Name=lifetimeConsole). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2022-08-26 13:51:34.8860 Info Shutdown() called. Logger closing...
+2022-08-26 13:51:34.8860 Info Closing old configuration.
+2022-08-26 13:51:34.8860 Info Logger has been closed down.
+2022-08-26 13:51:34.8860 Info AppDomain Shutting down. LogFactory closing...
+2022-08-26 13:51:34.8860 Info LogFactory has been closed.
+2022-08-26 14:16:01.9770 Info Message Template Auto Format enabled
+2022-08-26 14:16:01.9881 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-26 14:16:02.0276 Info Adding target FileTarget(Name=allfile)
+2022-08-26 14:16:02.0276 Info Adding target FileTarget(Name=warning_crit)
+2022-08-26 14:16:02.0276 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-26 14:16:02.0672 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 14:16:02.3287 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 14:16:02.3388 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: ConsoleTarget(Name=lifetimeConsole). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2022-08-26 14:25:20.0980 Info Shutdown() called. Logger closing...
+2022-08-26 14:25:20.0980 Info Closing old configuration.
+2022-08-26 14:25:20.1169 Info Logger has been closed down.
+2022-08-26 14:25:20.1169 Info AppDomain Shutting down. LogFactory closing...
+2022-08-26 14:25:20.1169 Info LogFactory has been closed.
+2022-08-26 14:26:53.3896 Info Message Template Auto Format enabled
+2022-08-26 14:26:53.4048 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-26 14:26:53.4633 Info Adding target FileTarget(Name=allfile)
+2022-08-26 14:26:53.4633 Info Adding target FileTarget(Name=warning_crit)
+2022-08-26 14:26:53.4633 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-26 14:26:53.4937 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=52, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 14:26:53.6255 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=52, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 14:26:53.6358 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: ConsoleTarget(Name=lifetimeConsole). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2022-08-26 14:27:29.8495 Info Shutdown() called. Logger closing...
+2022-08-26 14:27:29.8495 Info Closing old configuration.
+2022-08-26 14:27:29.8495 Info Logger has been closed down.
+2022-08-26 14:27:29.8495 Info AppDomain Shutting down. LogFactory closing...
+2022-08-26 14:27:29.8625 Info LogFactory has been closed.
+2022-08-26 14:31:35.1357 Info Message Template Auto Format enabled
+2022-08-26 14:31:35.1473 Info Loading assembly: NLog.Web.AspNetCore
+2022-08-26 14:31:35.2212 Info Adding target FileTarget(Name=allfile)
+2022-08-26 14:31:35.2212 Info Adding target FileTarget(Name=warning_crit)
+2022-08-26 14:31:35.2212 Info Adding target ConsoleTarget(Name=lifetimeConsole)
+2022-08-26 14:31:35.2525 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 14:31:35.5570 Info Validating config: TargetNames=allfile, warning_crit, lifetimeConsole, ConfigItems=51, FilePath=A:\WORK\PROJECTS\Test\react1\workerService\DataCollectionService\DataCollectionService\bin\Release\net6.0\NLog.config
+2022-08-26 14:31:35.5690 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: ConsoleTarget(Name=lifetimeConsole). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime' and Level=Info has been skipped.
+2022-08-26 14:33:58.2870 Info Shutdown() called. Logger closing...
+2022-08-26 14:33:58.2870 Info Closing old configuration.
+2022-08-26 14:33:58.2978 Info Logger has been closed down.
+2022-08-26 14:33:58.2978 Info AppDomain Shutting down. LogFactory closing...
+2022-08-26 14:33:58.2978 Info LogFactory has been closed.

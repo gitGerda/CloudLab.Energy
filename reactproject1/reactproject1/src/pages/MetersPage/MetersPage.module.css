@@ -1,0 +1,59 @@
+.metersPage {
+    width: 100%;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    /* background-color: #c4c4c4; */
+    background-image: url(../../../public/images/back7.jpg);
+background-position: center;
+    background-color: transparent;
+    background-repeat: no-repeat;
+}
+/* control_btns_container */
+.control_btns_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* control_btns */
+.control_btns{
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    margin-top: 1rem;
+    width: 84%;
+}
+.control_btns>button{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.control_btns>button:nth-of-type(1){
+    background-color: #E296AF ;
+}
+.control_btns>button:nth-of-type(2){
+    background-color: #828EC0;
+    color: black;
+}
+.control_btns>button:nth-of-type(2){
+    background-color: #828EC0;
+    color: black;
+}
+
+.AddNewMeterContainer{
+    margin:0 30px 30px 30px;  
+}
+.background_image{
+    height: 100%;
+    width: 100%;
+}
+.company_cards{
+    position:relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.table_btn{
+    border-radius: 20px;
+}

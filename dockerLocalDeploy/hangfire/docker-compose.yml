@@ -1,0 +1,14 @@
+version: '3.4'  
+
+services:
+  hangfire_sheduler:
+    container_name: "kzmpCloudHangfireSheduler"
+    image: ${DOCKER_REGISTRY-}hangfiresheduleapi
+    build:
+     context: ../../reactproject1/hangfireSheduleAPI
+     dockerfile: Dockerfile
+    ports: 
+      - "5188:80"
+    environment:
+      TZ: Europe/Moscow
+  #  restart: always    

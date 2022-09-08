@@ -1,0 +1,30 @@
+.detalizationParag{
+    margin-top: -11px;
+    color:green;
+    font-weight:500;
+}
+.download{
+    margin-top: -11px;
+    margin-left: 1rem;
+    color:brown;
+    font-weight:600;
+    font-size: 1rem;
+}
+.disableClick{
+    pointer-events: none;
+    
+}
+.indicators{
+    display: flex;
+    flex-direction: row;
+}
+.time{
+    background-color: rgb(162, 217, 220);
+    padding: 0 1rem;
+    border-radius: 20px;
+    font-style: 'Consolas';
+    font-weight: 600;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    color: black !important;
+    font-size: 0.8rem;
+}

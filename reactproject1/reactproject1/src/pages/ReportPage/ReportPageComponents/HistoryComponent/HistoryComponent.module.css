@@ -1,0 +1,20 @@
+.headerOfWindow{
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+    margin-bottom: 2.2vh;
+}
+.headerOfWindowText{
+    margin-left: 1vw;
+    margin-top:0.7vh;
+    font-size: 3vh;
+}
+.linksList{
+    min-height: 390px;
+    max-height: 390px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+#historyList{
+    
+}

@@ -1,0 +1,80 @@
+.globalBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 6vh;
+    flex-wrap: nowrap;
+    margin-top: 0.8vh;
+}
+.headerName{
+    flex:2;
+    /* background-color: red; */
+    height: 6vh;
+    font-size: 1.5em;
+    font-family: 'Consolas';
+    font-weight: 600;
+    margin-left: 1.6vw;
+    margin-top: 0.8vh;
+}
+.headerAddBtn{
+    height: 6vh;
+    margin-top:1vh;
+    margin-right: 1.6vw;
+}
+
+.tableGlobal{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    border-radius: 20px;
+    max-height: 21.5vh;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);    
+}
+
+.tableHead *{
+    color:black !important;
+    font-family: 'Consolas' !important;
+    font-size: 1em !important;
+    background-color: cornflowerblue;
+}
+.tableThLeft{
+    border-radius: 20px 0 0 0;  
+}
+.tableThRight{
+    border-radius: 0 20px 0 0;
+}
+.tableBlock{
+    background-color: rgb(165, 196, 193);
+    border-radius: 20px;
+}
+.tableBody *{
+    font-family: 'Consolas';
+    line-height: 1 !important;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+.tableTdLeftLast{
+    border-radius: 0 0 0 20px;
+}
+.tableTdRightLast{
+    border-radius: 0 0 20px 0;
+}
+.lastTr *{
+    border-width: 0 !important;
+}
+.tableActionDelete{
+    color:red;
+    font-weight: 600;
+}
+.actionsTd{
+    display: flex;
+    flex-direction: row;
+}
+

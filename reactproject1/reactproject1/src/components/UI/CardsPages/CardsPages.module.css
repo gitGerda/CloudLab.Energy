@@ -1,0 +1,11 @@
+.mainDiv {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.card-body{
+    height: auto;
+}

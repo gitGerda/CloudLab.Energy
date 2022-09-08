@@ -1,0 +1,77 @@
+version: '3.4'
+
+volumes:
+  docker_kzmpCloudDatabaseVolume:
+    external: true
+
+services:
+  kzmpcloudapi:
+    container_name: "kzmpcloudapi_container"
+    image: ${DOCKER_REGISTRY-}kzmpcloudapi
+    build:
+     context: .
+     dockerfile: ./Dockerfile
+    # depends_on: 
+    #   - database
+    #   - rabbitmq3
+    ports:
+      - "80:80"
+    environment:
+      TZ: Europe/Moscow
+    volumes:
+      - /home/gerda/logs/kzmp_cloud_api_logs/:/app/logs
+      - /home/gerda/xml80020reports/:/app/wwwroot/reports_xml80020
+      #- ${APPDATA}/Microsoft/UserSecrets/:/root/.microsoft/usersecrets
+      #- ${APPDATA}/ASP.NET/Https:/root/.aspnet/https/
+      #- c:/Users/gordeevsv/AppData/Roaming/ASP.NET/https/:/root/.aspnet/https
+      #- /etc/letsencrypt/live/robot24.space:/etc/letsencrypt/live/robot24.space
+      
+  # rabbitmq3:
+  #   container_name: "kzmpCloudRabbitMQ"
+  #   image: rabbitmq:3-management
+  #   hostname: 'kzmpCloudHost'
+  #   environment:
+  #     - RABBITMQ_DEFAULT_USER=root
+  #     - RABBITMQ_DEFAULT_PASS=Otohof96
+  #     - RABBITMQ_NODENAME=kzmpCloudNode  
+  #   ports:
+  #     # AMQP protocol port
+  #     - '5672:5672'
+  #     # HTTP management UI
+  #     - '15672:15672'
+  #   volumes:
+  #     - ~/Docker/kzmpCloud/rabbitmq/conf:/etc/rabbitmq/conf.d
+  #     - ~/Docker/kzmpCloud/rabbitmq/data/mnesia:/var/lib/rabbitmq/mnesia
+  #   restart: always
+
+  # database:
+  #   image: mysql:latest
+  #   command: --lower_case_table_names=0
+  #   container_name: kzmpCloudDatabase
+  #   ports:
+  #     - "3307:3306"
+  #   volumes:
+  #     - docker_kzmpCloudDatabaseVolume:/var/lib/mysql
+  #     - ~/Docker/kzmpCloud/sql-scripts/setup.sql:/docker-entrypoint-initdb.d/1.sql
+  #   restart: always
+  #   environment: 
+  #     MYSQL_ROOT_PASSWORD: Otohof96
+  #     MYSQL_USER: user1
+  #     MYSQL_PASSWORD: Otohof96
+  #     MYSQL_DATABASE: kzmp_energy 
+  #     TZ: Europe/Moscow
+
+  # phpMyAdmin:
+  #   image: phpmyadmin:latest
+  #   container_name: kzmpCloudPHPMyAdmin
+  #   ports:
+  #     - "8081:80"   
+  #   links: 
+  #     - database
+  #   environment:
+  #     PMA_HOST: database
+  #     PMA_PORT: 3306
+  #     TZ: Europe/Moscow
+  #   restart: always  
+    
+

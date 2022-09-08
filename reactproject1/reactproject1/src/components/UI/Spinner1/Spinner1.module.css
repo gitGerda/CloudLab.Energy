@@ -1,0 +1,44 @@
+#container {
+    width: 200px;
+    height: 200px;
+    position: absolute; 
+    top: 50vh;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.closeSpinner{
+    display: none;
+}
+
+@keyframes animation {
+    0% {
+        stroke-dasharray: 1 98;
+        stroke-dashoffset: -105;
+    }
+
+    50% {
+        stroke-dasharray: 80 10;
+        stroke-dashoffset: -160;
+    }
+
+    100% {
+        stroke-dasharray: 1 98;
+        stroke-dashoffset: -300;
+    }
+}
+
+#spinner {
+    transform-origin: center;
+    animation-name: animation;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier;
+    animation-iteration-count: infinite;
+
+    fill: transparent;
+    stroke: #dd2476;
+    stroke-width: 7px;
+    stroke-linecap: round;
+    filter: url(#shadow);
+}

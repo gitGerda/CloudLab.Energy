@@ -1,0 +1,57 @@
+.headerOfWindow{
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+    margin-bottom: 1vh;
+    margin-top:0.5vh;
+    align-content: center;
+}
+.headerOfWindowText{
+    margin-left: 1vw;
+    margin-top:0.7vh;
+    font-size: 3vh;
+}
+.headerImage{
+    margin-left: 0.3vw;
+}
+.infoBlockTable{
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom:10px;
+    border: solid 1px black;
+    border-radius: 15px;
+    overflow-x: auto;
+}
+.infoBlockDescription{
+    margin-left:2vw;
+    margin-bottom: 2vh;
+}
+.infoBlockDescriptionNames{
+   font-weight: 600;
+}
+.tableTxt{
+    font-style: italic;
+    margin-left:10px;
+}
+.spinner{
+    margin-left:10px;
+    margin-top:10px;
+}
+.download_cont{
+    background-color: green;
+    margin-left: 1rem;
+    margin-top: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    height: 2rem;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+.download{
+    padding: 1rem;
+    font-family: 'Consolas';
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1rem;
+}

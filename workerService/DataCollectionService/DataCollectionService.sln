@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataCollectionService", "DataCollectionService\DataCollectionService.csproj", "{F45A071B-D322-49A2-9365-390E625D633D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataCollectionUI", "DataCollectionUI\DataCollectionUI.csproj", "{6E13C072-41A5-4F26-B26E-4433CC248F6E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KzmpEnergyIndications", "..\..\kzmp_energy_desktop\kzmp_energy_v2.0\KzmpEnergyIndications\KzmpEnergyIndications.csproj", "{8E2FDEE8-5324-49D9-A3DD-9BC6FEC8E3E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataCollectionService.Test", "DataCollectionService.Test\DataCollectionService.Test.csproj", "{491C6A0C-3CDB-4DA8-A0EA-425CC769BFB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F45A071B-D322-49A2-9365-390E625D633D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F45A071B-D322-49A2-9365-390E625D633D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F45A071B-D322-49A2-9365-390E625D633D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F45A071B-D322-49A2-9365-390E625D633D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E13C072-41A5-4F26-B26E-4433CC248F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E13C072-41A5-4F26-B26E-4433CC248F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E13C072-41A5-4F26-B26E-4433CC248F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E13C072-41A5-4F26-B26E-4433CC248F6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2FDEE8-5324-49D9-A3DD-9BC6FEC8E3E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2FDEE8-5324-49D9-A3DD-9BC6FEC8E3E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2FDEE8-5324-49D9-A3DD-9BC6FEC8E3E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2FDEE8-5324-49D9-A3DD-9BC6FEC8E3E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491C6A0C-3CDB-4DA8-A0EA-425CC769BFB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491C6A0C-3CDB-4DA8-A0EA-425CC769BFB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491C6A0C-3CDB-4DA8-A0EA-425CC769BFB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491C6A0C-3CDB-4DA8-A0EA-425CC769BFB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DD9E7C9-20CD-4268-8F99-7466F6AB4733}
+	EndGlobalSection
+EndGlobal

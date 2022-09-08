@@ -1,0 +1,32 @@
+.errorMain {
+    width: 100%;
+    height: calc(100vh - 60px);
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.errorMain .errorSpace {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aqua;
+    width: 40%;
+    border-radius: 20px;
+    border-style: solid;
+
+}
+
+.errorMain .errorName {
+    font-size: 5em;
+    font-weight: 600;
+}
+.errorMain .errorDesc{
+    font-size: 1.2em;
+    font-weight: 400;
+    /* font-style: italic; */
+    margin-bottom: 30px;
+}

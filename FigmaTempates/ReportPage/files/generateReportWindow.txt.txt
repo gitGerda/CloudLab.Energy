@@ -1,0 +1,70 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+<div class = "myBox">
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="Путь для сохраения отчёта">
+  <button class="btn btn-outline-primary" type="button" id="button-addon2">Выбрать папку</button>
+</div>
+  
+  <div class="input-group mb-3">
+  <label class="input-group-text" for="inputGroupSelect01">Организация:</label>
+  <select class="form-select" id="inputGroupSelect01">
+    <option selected>Выбрать</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</div>
+  
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">Дата формирования отчёта:</span>
+  <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+  
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">Начало периода:</span>
+  <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+  
+  <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">Конец периода:</span>
+  <input type="date" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+  
+  <div class="form-check form-switch">
+  <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+  <label class="form-check-label" for="flexSwitchCheckChecked">Добавить отчёт о потребленной энергии (кВт*ч)</label>
+    
+    <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">Месяц:</span>
+  <select class="form-select" id="inputGroupSelect01">
+    <option selected>Выбрать</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</div>
+    
+    <div class="input-group mb-3">
+  <span class="input-group-text" id="basic-addon1">Год:</span>
+  <select class="form-select" id="inputGroupSelect01">
+    <option selected>Выбрать</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</div>
+    
+</div>
+  <div class="d-grid gap-2">
+  <button class="btn btn-primary" type="button">Сформировать отчёт</button>
+</div>
+  </Div>
+  
+  
+  -------------------------------------
+  .myBox{
+  width:600px;
+  padding-left:40px;
+  padding-top:40px;
+}

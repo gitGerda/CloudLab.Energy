@@ -1,0 +1,53 @@
+#mainCard {
+    border-radius: 20px;
+    height: 100%;
+    min-height: 590px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px 20px 0 0;
+
+}
+
+#header #desc,
+#header #errorMsg {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#header #errorMsg {
+    color: red;
+    font-size: 1em;
+}
+
+#body {
+    min-height: 420px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 0 0 20px 20px;
+}
+
+#button {
+    margin: 0 10px;
+    font-size: 0.9em;
+    border-radius: 20px;
+}
+
+#input {
+    margin-bottom: 10px;
+}
+
+#nonVisisbleInput{
+    display: none;
+}

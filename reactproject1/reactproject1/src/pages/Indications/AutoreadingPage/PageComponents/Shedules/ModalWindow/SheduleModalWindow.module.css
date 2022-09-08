@@ -1,0 +1,124 @@
+.modalWindowContainer{
+   max-width: 65vw !important;
+   border-radius: 20px !important;
+   border-width: 1.5px !important;
+   border-color: black;
+   padding: 0 !important;
+}
+.modalWindowContainer *{
+    font-family: 'Consolas'
+}
+.modalHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 1.8em !important;
+    padding-bottom: 1vh;
+}
+.modalBody{
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 2vh !important;   
+}
+.modalBlockRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0 2vw;
+    padding-top: 1vh;
+    line-height: 1.3;
+}
+.modalBlockTable{
+    display: flex;
+    flex-direction: column;
+    margin:0 2vw;
+    padding-top: 1vh;
+    line-height: 1.3;
+}
+.modalBlockRowInput{
+    font-size: 1em;
+    margin-left: 1vw;
+    background-color: #FFFBFB !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);    
+}
+.modalBlockRow span,.modalBlockTable span{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.modalBodyBlock{
+    background-color: #F2E4E4;
+    margin:0 1.5vw;
+    border-radius: 20px;
+    padding-top:1vh;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+}
+.modalBlockRowSelect{
+    background-color:#FFFBFB !important; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);    
+}
+
+.tableGlobal{
+    margin: 1vh 0vh;
+    border-radius: 20px;
+    max-height: 40vh;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);    
+}
+
+.tableHead *{
+    color:black !important;
+    font-family: 'Consolas' !important;
+    font-size: 1em !important;
+    background-color: rgb(236, 191, 55);
+}
+.tableThLeft{
+    border-radius: 20px 0 0 0;  
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 10px !important;
+}
+.tableThRight{
+    border-radius: 0 20px 0 0;
+}
+.tableBlock{
+    background-color: rgb(219, 196, 224);
+    border-radius: 20px;
+}
+.tableBody *{
+    font-family: 'Consolas';
+    line-height: 1 !important;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+.tableTdLeftLast{
+    border-radius: 0 0 0 20px;
+}
+.tableTdRightLast{
+    border-radius: 0 0 20px 0;
+}
+.lastTr *{
+    border-width: 0 !important;
+}
+.checkBox{
+    background-color: white;
+    border-color: rgb(138, 46, 46);
+    border-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    /* border-width: 0.5px !important; */
+}
+.saveCloseBtns{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 2vw;
+    margin-top:2vh;
+    padding-bottom: 2vh;
+}
+.helpMsg{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   color:darkslategrey;
+}

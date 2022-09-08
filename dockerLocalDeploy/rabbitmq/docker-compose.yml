@@ -1,0 +1,52 @@
+version: "3.8"
+
+services:
+  rabbitmq3:
+    container_name: "kzmpCloudRabbitMQ"
+    image: rabbitmq:3-management
+    hostname: 'kzmpCloudHost'
+    environment:
+        - RABBITMQ_DEFAULT_USER=root
+        - RABBITMQ_DEFAULT_PASS=Otohof96
+        - RABBITMQ_NODENAME=kzmpCloudNode
+    ports:
+        # AMQP protocol port
+        - '5672:5672'
+        # HTTP management UI
+        - '15672:15672'
+    volumes:
+      - ~/Docker/kzmpCloud/rabbitmq/conf:/etc/rabbitmq/conf.d
+      - ~/Docker/kzmpCloud/rabbitmq/data:/var/lib/rabbitmq/mnesia
+  #  restart: always
+
+
+
+  # database:
+  #   image: mysql:latest
+  #   command: --lower_case_table_names=0
+  #   container_name: kzmpCloudDatabase
+  #   ports:
+  #     - "3307:3306"
+  #   volumes:
+  #     - docker_kzmpCloudDatabaseVolume:/var/lib/mysql
+  #     - ~/Docker/kzmpCloud/sql-scripts/setup.sql:/docker-entrypoint-initdb.d/1.sql
+  #   restart: always
+  #   environment: 
+  #     MYSQL_ROOT_PASSWORD: Otohof96
+  #     MYSQL_USER: user1
+  #     MYSQL_PASSWORD: Otohof96
+  #     MYSQL_DATABASE: kzmp_energy 
+  #     TZ: Europe/Moscow
+
+  # phpMyAdmin:
+  #   image: phpmyadmin:latest
+  #   container_name: kzmpCloudPHPMyAdmin
+  #   ports:
+  #     - "8081:80"   
+  #   links: 
+  #     - database
+  #   environment:
+  #     PMA_HOST: database
+  #     PMA_PORT: 3306
+  #     TZ: Europe/Moscow
+  #   restart: always  

@@ -1,0 +1,11 @@
+#mainTable{
+    background-color:#fff;
+    border-radius: 20px;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.desc{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    /* font-style: italic; */
+}

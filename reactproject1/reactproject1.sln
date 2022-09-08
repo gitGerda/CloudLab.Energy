@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kzmpCloudAPI", "kzmpCloudAPI\kzmpCloudAPI.csproj", "{D86C0C1B-30D5-49C7-91F9-4178F7783D43}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hangfireSheduleAPI", "hangfireSheduleAPI\hangfireSheduleAPI.csproj", "{161F18B9-C340-4B77-AAF6-386E6E275727}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HangfireJobsToRabbitLibrary", "HangfireJobsToRabbit\HangfireJobsToRabbitLibrary.csproj", "{FDFBE006-EE71-4943-82A9-EE81F1282D6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataCollectionService", "..\workerService\DataCollectionService\DataCollectionService\DataCollectionService.csproj", "{19170010-593C-44B4-8C75-A49130535283}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KzmpEnergyIndicationsLibrary", "..\kzmp_energy_desktop\kzmp_energy_v2.0\KzmpEnergyIndications\KzmpEnergyIndicationsLibrary.csproj", "{D5BB2287-268A-4CE9-9D27-D586548F92DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataCollectionService.Test", "..\workerService\DataCollectionService\DataCollectionService.Test\DataCollectionService.Test.csproj", "{D3677D53-AED2-4810-A7B9-0F2EAB8778F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataCollectionUI", "..\workerService\DataCollectionService\DataCollectionUI\DataCollectionUI.csproj", "{D750157D-41A4-4C42-8056-AD4BC950EA9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataCollectionApp", "DataCollectionApp", "{2E9DEAD9-42C8-4CD8-AEDF-3EBCAE42E525}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HangfireShedulerApp", "HangfireShedulerApp", "{7B7AB88A-2199-4C4A-A2D8-AEE5F77F49BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kzmpCloudApp", "kzmpCloudApp", "{87F5AC5B-F533-43AF-BE70-C075C393EBDF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kzmpCloudAPI.Tests", "kzmpCloudAPI.Tests\kzmpCloudAPI.Tests.csproj", "{44CABFD6-CC33-4C00-9D0A-CD5BF7404B2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{C933AC10-287E-43CD-8372-55276362D88E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQLibrary", "RabbitMQ_lib\RabbitMQLibrary.csproj", "{95D7DE8B-A0A1-4B70-9824-CC1FBCF34C80}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KzmpEnergyReportLibrary", "..\LibraryDeveloping\kzmpEnergy_ReportLibrary\KzmpEnergyReportLibrary.csproj", "{92A510C5-CBF8-43DE-9E5D-D5891E59D23C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D86C0C1B-30D5-49C7-91F9-4178F7783D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86C0C1B-30D5-49C7-91F9-4178F7783D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86C0C1B-30D5-49C7-91F9-4178F7783D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86C0C1B-30D5-49C7-91F9-4178F7783D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{161F18B9-C340-4B77-AAF6-386E6E275727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{161F18B9-C340-4B77-AAF6-386E6E275727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{161F18B9-C340-4B77-AAF6-386E6E275727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{161F18B9-C340-4B77-AAF6-386E6E275727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDFBE006-EE71-4943-82A9-EE81F1282D6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFBE006-EE71-4943-82A9-EE81F1282D6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFBE006-EE71-4943-82A9-EE81F1282D6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFBE006-EE71-4943-82A9-EE81F1282D6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19170010-593C-44B4-8C75-A49130535283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19170010-593C-44B4-8C75-A49130535283}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19170010-593C-44B4-8C75-A49130535283}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19170010-593C-44B4-8C75-A49130535283}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BB2287-268A-4CE9-9D27-D586548F92DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BB2287-268A-4CE9-9D27-D586548F92DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BB2287-268A-4CE9-9D27-D586548F92DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BB2287-268A-4CE9-9D27-D586548F92DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3677D53-AED2-4810-A7B9-0F2EAB8778F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3677D53-AED2-4810-A7B9-0F2EAB8778F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3677D53-AED2-4810-A7B9-0F2EAB8778F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3677D53-AED2-4810-A7B9-0F2EAB8778F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D750157D-41A4-4C42-8056-AD4BC950EA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D750157D-41A4-4C42-8056-AD4BC950EA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D750157D-41A4-4C42-8056-AD4BC950EA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D750157D-41A4-4C42-8056-AD4BC950EA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44CABFD6-CC33-4C00-9D0A-CD5BF7404B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44CABFD6-CC33-4C00-9D0A-CD5BF7404B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44CABFD6-CC33-4C00-9D0A-CD5BF7404B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44CABFD6-CC33-4C00-9D0A-CD5BF7404B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D7DE8B-A0A1-4B70-9824-CC1FBCF34C80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D7DE8B-A0A1-4B70-9824-CC1FBCF34C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D7DE8B-A0A1-4B70-9824-CC1FBCF34C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D7DE8B-A0A1-4B70-9824-CC1FBCF34C80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A510C5-CBF8-43DE-9E5D-D5891E59D23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A510C5-CBF8-43DE-9E5D-D5891E59D23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A510C5-CBF8-43DE-9E5D-D5891E59D23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A510C5-CBF8-43DE-9E5D-D5891E59D23C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D86C0C1B-30D5-49C7-91F9-4178F7783D43} = {87F5AC5B-F533-43AF-BE70-C075C393EBDF}
+		{161F18B9-C340-4B77-AAF6-386E6E275727} = {7B7AB88A-2199-4C4A-A2D8-AEE5F77F49BF}
+		{FDFBE006-EE71-4943-82A9-EE81F1282D6B} = {C933AC10-287E-43CD-8372-55276362D88E}
+		{19170010-593C-44B4-8C75-A49130535283} = {2E9DEAD9-42C8-4CD8-AEDF-3EBCAE42E525}
+		{D5BB2287-268A-4CE9-9D27-D586548F92DF} = {C933AC10-287E-43CD-8372-55276362D88E}
+		{D3677D53-AED2-4810-A7B9-0F2EAB8778F6} = {2E9DEAD9-42C8-4CD8-AEDF-3EBCAE42E525}
+		{D750157D-41A4-4C42-8056-AD4BC950EA9D} = {2E9DEAD9-42C8-4CD8-AEDF-3EBCAE42E525}
+		{44CABFD6-CC33-4C00-9D0A-CD5BF7404B2D} = {87F5AC5B-F533-43AF-BE70-C075C393EBDF}
+		{95D7DE8B-A0A1-4B70-9824-CC1FBCF34C80} = {C933AC10-287E-43CD-8372-55276362D88E}
+		{92A510C5-CBF8-43DE-9E5D-D5891E59D23C} = {C933AC10-287E-43CD-8372-55276362D88E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8C2BB6B-B6C7-4139-B49F-BF318A11B8AE}
+	EndGlobalSection
+EndGlobal

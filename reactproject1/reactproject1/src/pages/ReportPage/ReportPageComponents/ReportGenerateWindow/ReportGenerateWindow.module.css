@@ -1,0 +1,21 @@
+.headerOfWindow{
+    display: flex;
+    flex-direction: row;
+    height: 6vh;
+    margin-bottom: 2.2vh;
+}
+.headerOfWindowText{
+    margin-left: 1vw;
+    margin-top:0.7vh;
+    font-size: 3vh;
+}
+.generateReportBtn{
+    border-radius: 15px;
+}
+
+.nonVisible{
+    display: none;
+}
+.txt{
+    font-style: italic;
+}

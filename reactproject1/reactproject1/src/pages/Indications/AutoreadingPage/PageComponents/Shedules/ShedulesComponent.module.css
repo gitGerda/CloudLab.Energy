@@ -1,0 +1,66 @@
+.globalBlock{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    height: 6vh;
+    flex-wrap: nowrap;
+    margin-top: 0.8vh;
+}
+.componentName{
+    flex:2;
+    /* background-color: red; */
+    height: 6vh;
+    font-size: 1.5em;
+    font-family: 'Consolas';
+    font-weight: 600;
+    margin-left: 1.6vw;
+    margin-top: 0.8vh;
+}
+.headerBtnBlock{
+    border-radius: 20px;
+    background-color: #BBDCBC;
+    margin-right:1.6vw ;
+}
+.addShedule{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #BBDCBC;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);  
+}
+.addSheduleTxt{
+    font-family: 'Consolas';
+    font-weight: 600;
+    margin-left: 0.4vw;
+    margin-right: 1vw;
+}
+.addSheduleImg{
+   width: 1.5em;
+   height: 1.5em;
+   margin-right: 0.4vw;
+   margin-left: 0.4vw;
+   margin-top:0.4vh;
+   margin-bottom: 0.4vh;
+   padding-left: 0;
+}
+.searchMain{
+    margin-left: 1.6vw;
+    margin-right: 1.6vw;
+    margin-top:0.8vh;
+}
+
+.shedules{
+    margin-right: 0.7vw;  
+    margin-left: 0.7vw;
+    margin-top: 1vh;
+    height: 77vh;
+    overflow-y: auto;
+}
+

@@ -1,0 +1,52 @@
+.reportAlert{
+    background-color: white;
+    height: 5vh;
+    margin-top:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    /* display: none; */
+}
+.reportAlertCorrectImage{
+    width: 4vh;
+    height: 4vh;
+    margin-left: 0.5vw;
+    margin-top: 0.5vh;
+}
+.reportAlertText{
+    margin-left: 0.6vw;
+    margin-top: 0.9vh;
+    font-size: 2vh;
+    font-weight: 500;
+    font-style: italic;
+    /* width: 89.3vw; */
+}
+.reportAlertDownLoadBtn{
+    margin-top: 1vh;
+    margin-right: 0.4vw;
+    margin-left: 1vw ;
+    border-radius: 25px;
+    height: 3vh; 
+}
+.reportAlertClose{
+    display: flex;
+    height: 2vh;
+    margin-right: 0.3vw;
+    margin-top:0.3vh;
+}
+
+.reportAlertClose:hover{
+    cursor: pointer;
+    height: 3vh;
+}
+
+.closeBtnContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-grow: 2;
+}

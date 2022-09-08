@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.156f82bd.css",
+    "main.js": "/static/js/main.9badf30c.js",
+    "static/js/787.425f66d6.chunk.js": "/static/js/787.425f66d6.chunk.js",
+    "static/media/boxicons.svg": "/static/media/boxicons.17f6cb4eef77f07f2caa.svg",
+    "static/media/back5.jpg": "/static/media/back5.e8a3ca81e013513ba313.jpg",
+    "static/media/boxicons.eot": "/static/media/boxicons.dfc882ec9689f820c7c9.eot",
+    "static/media/sidebar_back.jpg": "/static/media/sidebar_back.760937d9d96fc05ba7de.jpg",
+    "static/media/boxicons.woff": "/static/media/boxicons.1a7e2e2bf3a855e674d4.woff",
+    "static/media/boxicons.ttf": "/static/media/boxicons.22afc8ee5cfc540cddff.ttf",
+    "static/media/back7.jpg": "/static/media/back7.a6e4202542f4c4ce5616.jpg",
+    "static/media/boxicons.woff2": "/static/media/boxicons.60f603cccbdff82a523c.woff2",
+    "static/media/consolas.ttf": "/static/media/consolas.cd87e6528d4667aa9465.ttf",
+    "index.html": "/index.html",
+    "main.156f82bd.css.map": "/static/css/main.156f82bd.css.map",
+    "main.9badf30c.js.map": "/static/js/main.9badf30c.js.map",
+    "787.425f66d6.chunk.js.map": "/static/js/787.425f66d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.156f82bd.css",
+    "static/js/main.9badf30c.js"
+  ]
+}

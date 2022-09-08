@@ -1,0 +1,19 @@
+version: '3.4'
+
+volumes:
+  docker_kzmpCloudDatabaseVolume:
+    external: true
+
+services:
+  kzmpcloudapi:
+    image: ${DOCKER_REGISTRY-}kzmpcloudapi
+    build:
+     context: ../
+     dockerfile: kzmpCloudAPI/Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets/:/root/.microsoft/usersecrets
+      #- ${APPDATA}/ASP.NET/Https:/root/.aspnet/https/
+      - c:/Users/gordeevsv/AppData/Roaming/ASP.NET/https/:/root/.aspnet/https
+      #- /etc/letsencrypt/live/robot24.space:/etc/letsencrypt/live/robot24.space
